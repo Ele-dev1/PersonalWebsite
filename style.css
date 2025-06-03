@@ -54,7 +54,7 @@ span {
 }
 
 #p2container {
-    background-image: url(Images/GameDev.png);
+    background-image: url(./Images/GameDev.png);
     background-repeat: no-repeat;
     background-color: rgb(53, 49, 49);
     background-size: cover;
