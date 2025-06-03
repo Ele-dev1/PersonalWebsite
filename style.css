@@ -4,7 +4,7 @@ body {
 
 #header {
     background-color: rgb(4, 13, 16);
-    background-image: url(images/WebsiteBanner.png);
+    background-image: url(../Images/WebsiteBanner.png);
     background-size: auto 100%;
     background-repeat: repeat;
     background-position: center;
