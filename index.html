@@ -1,140 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="CRv3IZvw7oJbXV6d8AyPUZroo6iIPixJSnD9jIkZDEE" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elena's Webpage</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        @media screen and (min-width: 1024px) {
-            #everything {font-size: 36px;}
-            #descbtn {transform: scale(1.5);}
-        }
-        @media screen and (min-width: 768px) and (max-width: 1023px) {
-            #everything {font-size: 26px;}
-            #descbtn {transform: scale(1);}
-        }
-        @media screen and (max-width: 768px) {
-            #everything {font-size: 16px;}
-            #descbtn {transform: scale(0.5);}
-        }
-
-        @media (hover:hover) {
-            .firstDiv:hover + .displayHover {
-                opacity: 1;
-            }
-            .description:hover + .displayHover {
-                opacity: 1;
-            }
-            .myProjects:hover + .displayHover {
-                opacity: 1;
-            }
-            .skills:hover + .displayHover {
-                opacity: 1;
-            }
-        }
-
-        @media (hover:none) {
-            .displayHover {
-                opacity: 1;
-            }
-        }
-    </style>
+    <title>Elena's page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="everything">
-        <div id="header">
-            <p class="intro">Console.log("<span>Hello, world!</span>); <br><br>
-            Console.log("<span>I'm Elena</span>);</p>
-            <button id="descbtn" onclick="myFunction()">About Me</button>
-        </div>
-        <div id="description" class="description">
-            <div class="firstDiv">
-                <h3 class="heading">Who Am I?</h3>
-                <p id="whoAmI">I'm someone who noticed the beauty of Computer Science. Behind a screen there's a whole
-                other world and I want to learn about it as much as I can. <br>
-                It's a mix of logic and creativity,
-                concrete and abstraction, a subject in which you can create so much from nothing<br>
-                I'm so far away from where I'd like to be in any field 
-                but I have the passion and the ambition and, I think, that's what matters.
-                </p>
-            </div>
-            <div class="displayHover">
-                <p>//I love computer science since I was a kid.
-                I used to wonder about how are videogames made, how do apps and website work,
-                how do malwares do such damages, what there is behind this screen...
-                Instead of continuing to wonder I started taking action and I've learnt a few things by myself
-                through the internet.</p>
-            </div>
-            <h3>I'm focusing on studying:</h3>
-            <div id="p2container">
-                <div id="content">
-                    <h3>Game Development</h3>
-                    <p>I love imagining unreal journeys and creating surreal worlds by mixing art and logic</p>
-                </div>
-            </div>
-            <div id="p3container">
-                <div id="contentWeb">
-                    <h3>Web Development</h3>
-                    <p>because I think that making websites it's a way to make your project and ideas reach as many people as possible</p>
-                </div>
-            </div>
-        </div>
-        <p class="displayHover">//I'd also love to learn cybersecurity, AI, other coding languages...</p>
-        <div id="projects">
-            <h3 class="myProjects">My Projects</h3>
-            <p class="displayHover">//*Project for now...</p>
-            <div class="Astroball" onclick="astroCard()">
-                <img src="./Images/Astro.png" alt="Astroball logo" id="astroImg">
-                <a href="https://call-me-elena.itch.io/astroball" target="_blank" id="astroButton">Astroball</a>
-            </div>
-            <p id="clickHere" style="text-align: center;">//Click on the card to learn more</p>
-        </div>
-        <div id="skills" class="skills">
-            <p><strong>Languages and Tools I use:</strong></p>
-            <p><strong>Web Development</strong></p>
-            <div id="webdev">
-                <div class="skill">
-                    <img src="./Images/HTML.png" alt="HTML logo" class="image">
-                    <p>HTML</p>
-                </div>
-                <div class="skill">
-                    <img src="./Images/CSS.png" alt="CSS logo" class="image">
-                    <p>CSS</p>
-                </div>
-                <div class="skill">
-                    <img src="./Images/JavaScript.png" alt="JavaScript logo" class="image">
-                    <p>JavaScript</p>
-                </div>
-                <div class="skill">
-                    <img src="./Images/VSCode.png" alt="VS Code logo" class="image">
-                    <p>VS Code</p>
-                </div>
-            </div>
-            <p><strong>Game Development</strong></p>
-            <div id="gamedev">
-                <div class="skill">
-                    <img src="./Images/UE5.png" alt="Unreal Engine logo" class="image">
-                    <p>Unreal Engine <br>(& Blueprint)</p>
-                </div>
-                <div class="skill">
-                    <img src="./Images/Blender.png" alt="Blender logo" class="image">
-                    <p>Blender</p>
-                </div>
-                <div class="skill">
-                    <img src="./Images/FLStudio.png" alt="FLStudio" class="image">
-                    <p>FL Studio</p>
-                </div>
-            </div>
-        </div>
-        <p class="displayHover" style="margin: 0px;">//I should add a blog here...</p>
-        <div id="socials">
-            <p style="display: block;">Socials:</p>
-            <a href="https://www.youtube.com/@Elena_Dev-bw5mr" target="_blank" class="social">YouTube</a>
-            <a href="https://www.instagram.com/elena_gamedev/" target="_blank" class="social">Instagram</a>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <p>$ Hi, user</p>
+    <p>$ My name is Elena and I'm a teenager curious about tech</p>
+    <p>$ This is my page, interested?</p>
+    <a href="aboutme.html">$ yes</a>
 </body>
 </html>
