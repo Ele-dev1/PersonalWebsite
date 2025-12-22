@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    margin: 0px;
 }
 
 ul {
@@ -21,3 +22,47 @@ nav {
     color: white;
 }
 
+#journey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    background-image: url(images/path_learning_journey.svg);
+}
+
+.divs {
+    color: rgb(255, 196, 0);
+    width: 700px;
+    text-align: center;
+    font-size: 22px;
+    border: 2px solid rgb(250, 212, 0);
+    margin: 80px;
+    padding: 15px;
+    background-color: rgb(66, 54, 44);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .divs {
+        box-sizing: border-box;
+        font-size: 30px;
+    }
+    #journey {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    li {
+        font-size: 22px;
+        margin: 5px;
+    }
+    .divs {
+        width: 95%;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+    #journey {
+        background-size: contain;
+    }
+}
