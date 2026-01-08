@@ -2,8 +2,47 @@ body {
     background-color: rgb(15, 15, 15);
     color: rgb(230, 230, 236);
     font-family: monospace;
-    font-size: 3em;
-    font-optical-sizing: auto;
+    font-size: calc(12px + 1.5vw);
     font-weight: 700;
     font-style: normal;
+}
+
+#terminal-loading {
+    white-space: pre-line;
+    color: rgba(255, 255, 255, 0.432);
+}
+
+#terminal-text {
+    white-space: pre-line;
+    color: rgb(0, 214, 0);
+}
+
+#enterBtn, #skipBtn {
+    color: rgb(228, 202, 252);
+    background-color: rgb(99, 26, 168);
+    border: 2px  rgb(99, 26, 168) solid;
+    font-size: calc(12px + 0.8vw);
+    width: 9vw;
+    height: 4vh;
+    min-width: 100px;
+    min-height: 25px;
+}
+
+#enterBtn:hover, #skipBtn:hover {
+    background-color: rgb(152, 80, 219);
+    border: 2px  rgb(152, 80, 219);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(228, 202, 252);
+}
+
+#skipBtn {
+    margin-right: 5vw;
+    margin: 12px
+}
+
+#enterBtn {
+    display: none;
 }
