@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    margin: 0px;
+    background-color: rgb(15, 15, 15);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    margin: 20px;
+    font-size: 30px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(57, 0, 71);
+    color: white;
+}
+
+div {
+    display: flex;
+    align-items: end;
+    height: calc();
+}
+
+p {
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    li {
+        font-size: 22px;
+        margin: 5px;
+    }
+}
