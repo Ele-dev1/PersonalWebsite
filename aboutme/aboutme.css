@@ -20,12 +20,21 @@ ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding-inline-start: 5px;
+    padding-inline-start: 0px;
 }
 
 li {
     margin: 20px;
     font-size: 30px;
+}
+
+a {
+    color: rgb(199, 140, 248);
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0px 0px 15px white;
 }
 
 nav {
