@@ -35,8 +35,8 @@ a:hover {
 
 div {
     display: flex;
-    align-items: end;
     height: calc();
+    flex-direction: column;
 }
 
 p {
