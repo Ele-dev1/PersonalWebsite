@@ -37,6 +37,8 @@ div {
     display: flex;
     height: calc();
     flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 p {
